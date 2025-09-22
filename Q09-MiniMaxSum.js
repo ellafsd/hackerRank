@@ -2,6 +2,7 @@ let arr =[1,3,5,7,9];
 
 function miniMaxSum(arr) {
     
+    arr.sort((a, b) => a - b);
     let sumMin = 0;
     let sumMax = 0;
     
@@ -15,4 +16,3 @@ function miniMaxSum(arr) {
     
     console.log(sumMin, sumMax);
 } 
-miniMaxSum(arr);
