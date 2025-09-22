@@ -15,5 +15,4 @@ function miniMaxSum(arr) {
     
     console.log(sumMin, sumMax);
 } 
-
 miniMaxSum(arr);
